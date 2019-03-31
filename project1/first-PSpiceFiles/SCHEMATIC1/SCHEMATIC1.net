@@ -1,0 +1,9 @@
+* source FIRST
+V_V1         N00099 0 1V
+R_R1         N00099 N00106  1k TC=0,0 
+R_R2         N00106 N00110  2k TC=0,0 
+R_R3         0 N00110  3k TC=0,0 
+R_R4         N00275 N00282  1k TC=0,0 
+C_C1         0 N00282  3u  TC=0,0 
+V_V2         N00275 0  
++PULSE 0 1 10m 1u 1u 20m 40m
